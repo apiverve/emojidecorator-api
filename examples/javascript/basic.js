@@ -9,22 +9,15 @@ const API_KEY = process.env.APIVERVE_API_KEY || 'YOUR_API_KEY_HERE';
 const API_URL = 'https://api.apiverve.com/v1/emojidecorator';
 
 /**
- * Make a POST request to the Emoji Decorator API
+ * Make a GET request to the Emoji Decorator API
  */
 async function callEmojiDecoratorAPI() {
   try {
-    // Request body
-    const requestBody &#x3D; {
-    &quot;text&quot;: &quot;I am so excited to go to the lake and swim&quot;
-};
-
     const response = await fetch(API_URL, {
-      method: 'POST',
+      method: 'GET',
       headers: {
-        'x-api-key': API_KEY,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(requestBody)
+        'x-api-key': API_KEY
+      }
     });
 
     // Check if response is successful
