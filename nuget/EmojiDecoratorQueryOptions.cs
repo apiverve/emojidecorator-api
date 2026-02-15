@@ -12,7 +12,6 @@ namespace APIVerve.API.EmojiDecorator
     {
         /// <summary>
         /// The text you want decorated with emojis
-        /// Example: hello world
         /// </summary>
         [JsonProperty("text")]
         public string Text { get; set; }
