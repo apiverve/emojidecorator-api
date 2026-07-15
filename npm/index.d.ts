@@ -4,16 +4,28 @@ declare module '@apiverve/emojidecorator' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface emojidecoratorResponse {
     status: string;
     error: string | null;
     data: EmojiDecoratorData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface EmojiDecoratorData {
-      decorated: string;
+      decorated: null | string;
   }
 
   export default class emojidecoratorWrapper {
