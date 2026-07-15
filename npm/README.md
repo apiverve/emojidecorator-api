@@ -122,7 +122,7 @@ async function makeRequest() {
   "status": "ok",
   "error": null,
   "data": {
-    "decorated": "I am so excited 📬 to go 🤛🏾 to the lake 🙏🏼🇺🇸 and swim 👙"
+    "decorated": "I am so excited 🥂 to go 😄🙌🏽 to the lake 🤘🏻🇺🇸 and swim 🏊"
   }
 }
 ```
