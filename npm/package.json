@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/emojidecorator",
-  "version": "1.2.0",
-  "description": "Emoji Decorator is a simple tool for decorating text with emojis. It returns the text decorated with emojis.",
+  "version": "1.2.2",
+  "description": "Emoji Decorator inserts relevant emojis into plain text strings. Submit any sentence or passage to receive the complete string decorated with fitting emojis.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "emoji decorator", "emoji decoration", "emoji decorate", "emoji api", "emoji tool"
+    "emoji decorator api", "add emojis to text", "text emoji generator", "decorate text with emojis", "auto emoji insert"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/emojidecorator-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/emojidecorator?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/emojidecorator?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
