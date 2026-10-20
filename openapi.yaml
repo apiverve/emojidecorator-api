@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Emoji Decorator
   description: >-
-    Emoji Decorator is a simple tool for decorating text with emojis. It returns
-    the text decorated with emojis.
+    Emoji Decorator inserts relevant emojis into plain text strings. Submit any
+    sentence or passage to receive the complete string decorated with fitting
+    emojis.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/emojidecorator:
     post:
-      summary: Decorate Text with Emojis
+      summary: Emoji Decorator
       description: >-
         Emoji Decorator is a simple tool for decorating text with emojis. It
         returns the text decorated with emojis.
