@@ -1,7 +1,7 @@
 {
     "name": "apiverve/emojidecorator",
     "description": "Emoji Decorator inserts relevant emojis into plain text strings. Submit any sentence or passage to receive the complete string decorated with fitting emojis.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "type": "library",
     "license": "MIT",
     "authors": [
