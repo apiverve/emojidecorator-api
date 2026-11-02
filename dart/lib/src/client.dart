@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Emoji Decorator API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/emojidecorator?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/emojidecorator?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [text] (required) - The text you want decorated with emojis
