@@ -1,6 +1,6 @@
 name: apiverve_emojidecorator
 description: "Emoji Decorator inserts relevant emojis into plain text strings. Submit any sentence or passage to receive the complete string decorated with fitting emojis."
-version: 1.2.4
+version: 1.2.5
 homepage: https://apiverve.com/marketplace/emojidecorator?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/emojidecorator-api/tree/main/dart
 
